@@ -132,11 +132,11 @@ This gives the **theoretical fair price** for validation.
 When the script is executed, it prints:
 
 ===== European Call Option Pricing =====
-Monte Carlo Price: 7.9677
-Black–Scholes Price: 8.0214
-Percent Deviation: 0.67%
-Standard Error: 0.058843
-95% Confidence Interval: [7.8523, 8.0830]
+- Monte Carlo Price: 7.9677
+- Black–Scholes Price: 8.0214
+- Percent Deviation: 0.67%
+- Standard Error: 0.058843
+- 95% Confidence Interval: [7.8523, 8.0830]
 
 ### ✅ Interpretation
 
@@ -189,14 +189,5 @@ Generated images:
   - Greeks (Delta, Gamma, Vega)
   - Multi-asset simulations
   - Variance reduction techniques
-
----
-
-## ✅ 8. Resume Summary
-
-**Monte Carlo Option Pricing Engine (Python)**  
-- Simulated **50,000 GBM paths** to price a European call option.  
-- Achieved **0.67% deviation** from Black–Scholes benchmark with 95% confidence bounds.  
-- Visualized price evolution and terminal distribution for payoff analysis.
 
 ---
